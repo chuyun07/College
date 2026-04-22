@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://slidescorner.com/wp-content/uploads/2023/03/02-Baby-Blue-Pastel-Plain-Background-Wallpaper-by-SlidesCorner.com_-1.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.transparent-img {
+    position: absolute;
+    width: 100px;
+    opacity: 0.7;
+    transition: transform 1s, opacity 1s;
+}
+
+#img1 { top: 50px; left: 20px; }
+#img2 { top: 150px; left: 50px; }
+#img3 { top: 250px; right: -50px; }
+#img4 { bottom: 100px; left: 150px; }
+#img5 { top: 50px; right: 100px; }
+#img6 { bottom: 0px; right: 20px; }
+
+.transparent-img:hover {
+    transform: rotate(15deg) scale(1.1);
+    opacity: 1;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

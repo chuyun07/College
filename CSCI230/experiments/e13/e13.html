@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web APIs</title>
+    <link rel="stylesheet" href="e13.css">
+</head>
+<body>
+    <h1>Web APIs</h1>
+    <div class="container">
+        <button id="getLocationBtn">Get My Location</button>
+        <button id="allowNotificationBtn">Allow Notifications</button>
+        <p id="locationOutput"></p>
+
+        <div id="observeElement" class="observed-element">
+            <p>This element is being observed for intersection.</p>
+        </div>
+
+        <div id="resizeElement" class="observed-element">
+            <p>Resize this element to see the Resize Observer in action!</p>
+        </div>
+
+        <div id="mutationElement" class="observed-element">
+            <button id="mutationChangeBtn">Change Content</button>
+        </div>
+
+        <div id="performanceLog" class="observed-element">
+            <p>Performance observations will appear here.</p>
+        </div>
+    </div>
+
+    <script src="e13.js"></script>
+</body>
+</html>

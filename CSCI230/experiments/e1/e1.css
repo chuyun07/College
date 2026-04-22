@@ -1,0 +1,179 @@
+body {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.blackBorder{
+    border-color: 5px black;
+    border-style: solid;
+}
+h1{
+    position: absolute;
+    background-color: darkgray;
+    left: 50%;
+}
+#firstSection {
+    background-color: coral;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+#secondSection {
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 30%;
+    float: inline-start;
+}
+
+#firstDiv {
+    background-color: cadetblue;
+    height: 300px;
+}
+
+#thirdSection{
+    background-color: burlywood;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+#fourthSection{
+    background-color: beige;
+    height: 300px;
+    width: 30%;
+    float: inline-start;
+}
+
+#secondDiv{
+    background-color: black;
+    height: 300px;
+}
+
+#fifthSection{
+    background-color: chocolate;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+
+#sixthSection{
+    background-color: chartreuse;
+    height: 300px;
+    width: 30%;
+    float: inline-start;
+}
+
+#thirdDiv{
+    background-color: darkblue;
+    height: 300px;
+    padding-bottom: 12px;
+}
+
+.star{
+    width: 300px;
+    aspect-ratio: 1;
+    background: #F8CA00;
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+
+}
+
+#star{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#circle{
+    position: absolute;
+    bottom: 100px;
+    left: 450px;
+}
+
+.triangleUp{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 300px solid #555;
+}
+
+#triangleUp{
+    position: absolute;
+    bottom: 200px;
+    right: 650px;
+}
+
+.trapezoid{
+    width: 200px;
+    height: 25px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid #8e08da;
+}
+
+#trapezoid{
+    position: absolute;
+    bottom: 500px;
+    right: 450px;
+}
+
+.triangleTopRight{
+    width: 0;
+    height: 0;
+    border-top: 250px solid green;
+    border-left: 250px solid transparent;
+}
+
+#triangleTopRight{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.triangleTopLeft{
+    width: 0;
+    height: 0;
+    border-top: 250px solid gainsboro;
+    border-right: 250px solid transparent;
+}
+
+#triangleTopLeft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.triangleBottomLeft{
+    width: 0;
+    height: 0;
+    border-bottom: 250px solid palevioletred;
+    border-right: 250px solid transparent;
+}
+
+#triangleBottomLeft{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.triangleBottomRight{
+    width: 0;
+    height: 0;
+    border-bottom: 250px solid peru;
+    border-left: 250px solid transparent;
+}
+
+#triangleBottomRight{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

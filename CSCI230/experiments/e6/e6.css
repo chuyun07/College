@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a14747;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+}

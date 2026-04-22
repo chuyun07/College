@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="e2.css">
+</head>
+
+<body>
+    <section>
+        <form autocomplete="off" class="form">
+            <p class="title">Register</p>
+            <p class="message">Sign up now!</p>
+            <div class="form-group">
+                <label for="firstName">
+                    <input type="text" id="firstName" required>
+                    <span>Firstname</span>
+                </label>
+                <label for="lastName">
+                    <input type="text" id="lastName" required>
+                    <span>Lastname</span>
+                </label>
+            </div>
+            <label for="email">
+                <input type="text" id="email" required>
+                <span>Email</span>
+            </label>
+            <label for="password">
+                <input type="password" id="password" required>
+                <span>Password</span>
+            </label>
+            <label for="passwordConfirm">
+                <input type="password" id="passwordConfirm" required>
+                <span>Confirm Password</span>
+            </label>
+            <button class="submit" type="button" onclick="displayInput()">Submit</button>
+            <div>
+                <label for="checkbox1">I agree to the terms and conditions</label>
+                <input type="checkbox" id="checkbox1" name="agreement" required>
+            </div>
+            <p class="signin">Already have an account? <a href="#">Signin</a></p>
+        </form>
+
+        <div class="output" id="output">
+            <p><span id="displayName"></span></p>
+            <p><span id="displayEmail"></span></p>
+            <p><span id="displayPassword"></span></p>
+        </div>
+    </section>
+    <script src="e2.js"></script>
+
+
+</body>
+
+</html>
